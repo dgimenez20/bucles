@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#
 cut -d ":" -f 1 /etc/passwd > passwd.txt
 while read user;
 do
